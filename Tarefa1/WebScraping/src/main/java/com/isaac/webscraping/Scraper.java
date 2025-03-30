@@ -8,7 +8,7 @@ import java.io.*;
 import java.net.URL;
 
 public class Scraper {
-    public void BaixarArquivos() {
+    public void baixarArquivos() {
         final String link = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos";
 
         try{
