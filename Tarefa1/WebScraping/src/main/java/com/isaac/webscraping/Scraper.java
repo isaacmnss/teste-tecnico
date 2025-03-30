@@ -10,7 +10,8 @@ import java.net.URL;
 public class Scraper {
     public void baixarArquivos() {
         final String link = "https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos";
-
+        File dir = new File("ArquivosBaixados");
+        if (!dir.exists()) dir.mkdirs();
         try{
             System.out.println("\nIniciando download do Arquivo 1...");
            final  Document document = Jsoup.connect(link).get();
