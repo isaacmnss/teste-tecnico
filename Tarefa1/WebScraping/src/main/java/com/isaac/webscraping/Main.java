@@ -2,6 +2,7 @@ package com.isaac.webscraping;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Scraper scraper = new Scraper();
+        scraper.BaixarArquivos();
     }
 }
