@@ -17,12 +17,11 @@ public class Main {
 
             System.out.println("Salvando tabelas no arquivo CSV...");
             CriarCsv.converterParaCsv(tables);
-//
-//            System.out.println("Substituindo abreviações...");
-//            replaceAbbreviationsInCSV(csvPath);
-//
-//            System.out.println("Compactando arquivo CSV em ZIP...");
-//            zipFile(csvPath, zipPath);
+
+            System.out.println("Substituindo abreviações...");
+            AlterarAbreviacoes.substituir();
+
+
 //
 //            System.out.println("Processo concluído com sucesso!");
         } catch (IOException e) {
