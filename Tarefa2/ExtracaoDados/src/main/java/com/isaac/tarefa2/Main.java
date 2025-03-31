@@ -21,7 +21,8 @@ public class Main {
             System.out.println("Substituindo abreviações...");
             AlterarAbreviacoes.substituir();
 
-
+            System.out.println("Compactando arquivo CSV em ZIP...");
+            Compactador.ziparArquivo();
 //
 //            System.out.println("Processo concluído com sucesso!");
         } catch (IOException e) {
