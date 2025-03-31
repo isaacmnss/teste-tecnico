@@ -9,13 +9,14 @@ O projeto está organizado da seguinte forma:
 
 ```
 /
-├── src/com/isaac/webscraping/
+├── src/main/java/com/isaac/webscraping/
 │   ├── Scraper.java          # Responsável pelo download dos arquivos PDF
 │   ├── Compactador.java      # Responsável pela compactação dos arquivos baixados
 │   ├── Main.java             # Classe principal para execução do processo
+├── src/test/java/com/isaac/webscraping/ # Diretório onde estão armazenados os testes
 ├── ArquivosBaixados/         # Diretório onde os PDFs são armazenados
 ├── ResultadoFinal/           # Diretório onde o arquivo ZIP final é salvo
-└── README.md                 # Documentação geral do projeto
+└── README.md                 # Documentação da tarefa
 ```
 
 ## Funcionalidades
