@@ -8,9 +8,6 @@ import technology.tabula.Table;
 
 public class Main {
     public static void main(String[] args) {
-
-        String zipPath = "Teste_seu_nome.zip";
-
         try {
             System.out.println("Extraindo tabelas do PDF...");
             List<Table> tables = ExtrairTabela.extrairTabelaDoArquivo();
