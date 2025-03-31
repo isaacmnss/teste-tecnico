@@ -9,7 +9,7 @@ import org.apache.pdfbox.pdmodel.PDDocument;
 import technology.tabula.ObjectExtractor;
 import technology.tabula.Page;
 import technology.tabula.Table;
-import technology.tabula.extractors.BasicExtractionAlgorithm;
+
 import technology.tabula.extractors.SpreadsheetExtractionAlgorithm;
 
 public class ExtrairTabela {
