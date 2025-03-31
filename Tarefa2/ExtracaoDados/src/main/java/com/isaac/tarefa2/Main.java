@@ -23,8 +23,8 @@ public class Main {
 
             System.out.println("Compactando arquivo CSV em ZIP...");
             Compactador.ziparArquivo();
-//
-//            System.out.println("Processo concluído com sucesso!");
+
+            System.out.println("Processo concluído com sucesso!");
         } catch (IOException e) {
             e.printStackTrace();
         }
